@@ -1,0 +1,88 @@
+﻿<Window x:Class="BlackBoxTesting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BlackBoxTesting"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Background="DarkSlateGray">
+    <Grid>
+        <DockPanel>
+            <TabControl Height="425" Width="793" Background="DarkSlateGray">
+                <TabItem Header="Длинна теней"  Background="#ecf0d5">
+                    <Grid Background="#ecf0d5">
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Первая тень"/>
+                                <StackPanel Width="100" Margin="5">
+                                    <TextBlock Text="x1" HorizontalAlignment="Center"/>
+                                    <TextBox x:Name="TxbS1x1" KeyDown="TxbA_KeyDown"/>
+                                </StackPanel>
+                                <StackPanel Width="100" Margin="5">
+                                    <TextBlock Text="x2" HorizontalAlignment="Center"/>
+                                    <TextBox x:Name="TxbS1x2" KeyDown="Txb_KeyDown"/>
+                                </StackPanel>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Вторая тень"/>
+                                <StackPanel Width="100" Margin="5">
+                                    <TextBlock Text="x1" HorizontalAlignment="Center"/>
+                                    <TextBox x:Name="TxbS2x1" KeyDown="Txb_KeyDown"/>
+                                </StackPanel>
+                                <StackPanel Width="100" Margin="5">
+
+                                    <TextBlock Text="x2" HorizontalAlignment="Center"/>
+                                    <TextBox x:Name="TxbS2x2" KeyDown="Txb_KeyDown"/>
+                                </StackPanel>
+                            </StackPanel>
+
+                            <Button x:Name="BtnRes1" Content="Вычислить" Margin="5" Width="100" HorizontalAlignment="Left" Click="BtnRes1_Click"/>
+                            <TextBox x:Name="TxbResult1" MaxLines="2" Margin="5" Width="150" IsReadOnly="True" HorizontalAlignment="Left"/>
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Вид четырехугольника" Background="#ecf0d5">
+                    <Grid Background="#ecf0d5" >
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <StackPanel Width="100" Margin="5">
+                                    <TextBlock Text="P1" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="x" HorizontalAlignment="Center"/>
+                                    <TextBox x:Name="TxbP1x"/>
+                                    <TextBlock Text="y" HorizontalAlignment="Center"/>
+                                    <TextBox x:Name="TxbP1y"/>
+                                </StackPanel>
+                                <StackPanel Width="100" Margin="5">
+                                    <TextBlock Text="P2" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="x" HorizontalAlignment="Center"/>
+                                    <TextBox x:Name="TxbP2x"/>
+                                    <TextBlock Text="y" HorizontalAlignment="Center"/>
+                                    <TextBox x:Name="TxbP2y"/>
+                                </StackPanel>
+                                <StackPanel Width="100" Margin="5">
+                                    <TextBlock Text="P3" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="x" HorizontalAlignment="Center"/>
+                                    <TextBox x:Name="TxbP3x"/>
+                                    <TextBlock Text="y" HorizontalAlignment="Center"/>
+                                    <TextBox x:Name="TxbP3y"/>
+                                </StackPanel>
+                                <StackPanel Width="100" Margin="5">
+                                    <TextBlock Text="P4" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="x" HorizontalAlignment="Center"/>
+                                    <TextBox x:Name="TxbP4x"/>
+                                    <TextBlock Text="y" HorizontalAlignment="Center"/>
+                                    <TextBox x:Name="TxbP4y"/>
+                                </StackPanel>
+                            </StackPanel>
+                            <Button x:Name="BtnRes2" Content="Вычислить" Margin="5" Width="100" HorizontalAlignment="Left" Click="BtnRes2_Click"/>
+                            <TextBox x:Name="TxbResult2" Margin="5" Width="210" IsReadOnly="True" HorizontalAlignment="Left" />
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </DockPanel>
+
+
+    </Grid>
+</Window>

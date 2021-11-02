@@ -1,0 +1,15 @@
+D:\Projects\C#\Учеба\TRPO\Маша\BlackBoxTesting Маша\BlackBoxTesting\BlackBoxTesting\bin\Debug\BlackBoxTesting.exe.config
+D:\Projects\C#\Учеба\TRPO\Маша\BlackBoxTesting Маша\BlackBoxTesting\BlackBoxTesting\bin\Debug\BlackBoxTesting.exe
+D:\Projects\C#\Учеба\TRPO\Маша\BlackBoxTesting Маша\BlackBoxTesting\BlackBoxTesting\bin\Debug\BlackBoxTesting.pdb
+D:\Projects\C#\Учеба\TRPO\Маша\BlackBoxTesting Маша\BlackBoxTesting\BlackBoxTesting\obj\Debug\BlackBoxTesting.csproj.AssemblyReference.cache
+D:\Projects\C#\Учеба\TRPO\Маша\BlackBoxTesting Маша\BlackBoxTesting\BlackBoxTesting\obj\Debug\MainWindow.g.cs
+D:\Projects\C#\Учеба\TRPO\Маша\BlackBoxTesting Маша\BlackBoxTesting\BlackBoxTesting\obj\Debug\App.g.cs
+D:\Projects\C#\Учеба\TRPO\Маша\BlackBoxTesting Маша\BlackBoxTesting\BlackBoxTesting\obj\Debug\BlackBoxTesting_MarkupCompile.cache
+D:\Projects\C#\Учеба\TRPO\Маша\BlackBoxTesting Маша\BlackBoxTesting\BlackBoxTesting\obj\Debug\BlackBoxTesting_MarkupCompile.lref
+D:\Projects\C#\Учеба\TRPO\Маша\BlackBoxTesting Маша\BlackBoxTesting\BlackBoxTesting\obj\Debug\MainWindow.baml
+D:\Projects\C#\Учеба\TRPO\Маша\BlackBoxTesting Маша\BlackBoxTesting\BlackBoxTesting\obj\Debug\BlackBoxTesting.g.resources
+D:\Projects\C#\Учеба\TRPO\Маша\BlackBoxTesting Маша\BlackBoxTesting\BlackBoxTesting\obj\Debug\BlackBoxTesting.Properties.Resources.resources
+D:\Projects\C#\Учеба\TRPO\Маша\BlackBoxTesting Маша\BlackBoxTesting\BlackBoxTesting\obj\Debug\BlackBoxTesting.csproj.GenerateResource.cache
+D:\Projects\C#\Учеба\TRPO\Маша\BlackBoxTesting Маша\BlackBoxTesting\BlackBoxTesting\obj\Debug\BlackBoxTesting.csproj.CoreCompileInputs.cache
+D:\Projects\C#\Учеба\TRPO\Маша\BlackBoxTesting Маша\BlackBoxTesting\BlackBoxTesting\obj\Debug\BlackBoxTesting.exe
+D:\Projects\C#\Учеба\TRPO\Маша\BlackBoxTesting Маша\BlackBoxTesting\BlackBoxTesting\obj\Debug\BlackBoxTesting.pdb
